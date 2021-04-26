@@ -43,6 +43,7 @@ footer h2 {
 footer li {
   color: #fff;
   font-size: 1.2rem;
+  list-style: none;
 }
 footer img {
   height: 70px;
@@ -77,6 +78,7 @@ header img {
   height: 70px;
   padding-right: 1rem 0 0.3rem o;
 }
+/**navigation rules**/
 button#hamburgerBtn {
   background: none;
   border: none;
@@ -107,11 +109,15 @@ nav li.active {
   background-color: rgba(0, 0, 0, 0.5);
 }
 nav a:hover {
-  background-color: rgba( 0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 nav ul.open {
   display: block;
 }
 nav ul {
   display: none;
+}
+main img {
+  width: 100%;
+  height: auto;
 }
