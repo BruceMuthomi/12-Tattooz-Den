@@ -42,6 +42,10 @@ footer h2 {
 }
 footer li {
   color: #fff;
+  font-size: 1.2rem;
+}
+footer img {
+  height: 70px;
 }
 
 .clearfix:after {
@@ -50,18 +54,19 @@ footer li {
   clear: both;
 }
 /* header rules */
-header h1, header h2 {
+header h1,
+header h2 {
   margin: 0;
   color: #fff;
   font-weight: 300;
   font-style: italic;
 }
 header h1 {
-  padding: .5rem 0 0 0;
+  padding: 0.5rem 0 0 0;
   font-size: 1.95rem;
 }
 header h2 {
-  padding: .2rem 0 0 0;
+  padding: 0.2rem 0 0 0;
   font-size: 1.05rem;
 }
 header {
@@ -71,4 +76,42 @@ header img {
   float: left;
   height: 70px;
   padding-right: 1rem 0 0.3rem o;
+}
+button#hamburgerBtn {
+  background: none;
+  border: none;
+  color: #000;
+  font-size: 2.4rem;
+  cursor: pointer;
+  padding: 0 30px 0 2vw;
+}
+
+nav {
+  background-color: #fff;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  list-style: none;
+}
+nav a {
+  display: block;
+  padding: 0.8rem 0;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+}
+nav li.active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+nav a:hover {
+  background-color: rgba( 0, 0, 0, 0.2);
+}
+nav ul.open {
+  display: block;
+}
+nav ul {
+  display: none;
 }

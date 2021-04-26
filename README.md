@@ -1,4 +1,7 @@
-# 12-Tattooz-Den
+# 12 Tattooz Den
+
+## Introduction
+
 This is a HTML,CSS,SASS design of a tattoo parlour website it encompassess the mobile first build in which I built the pages from small,medium to large screen sizes.
 
 On the css I bullt style sheets for the different screen sizes customizing each to respond at different screen size pixels.
@@ -7,8 +10,24 @@ To speed up css loading I used Sass to preprocess all my css files and merge int
 
 I used HTML validaor to validate my mark up and CSS validator to validate my css.
 
-The responsive code css will be my backbone for more website builds.
+## Requirements
 
-Will be adding screenshots as I go on.
+HTML,CSS,SASS
+Koala sass preprocessor compiler
 
-Technologies used - HTML,CSS,SASS
+## Installation
+
+Clone code open on code editor and run on live server.
+
+### Screenshots
+
+### Features
+
+Responsive to small screen screen sizes.
+Responsive to medium & large screen sizes.
+
+## Resources (Documentation and other links)
+
+## Contributing / Reporting issues
+
+## License
